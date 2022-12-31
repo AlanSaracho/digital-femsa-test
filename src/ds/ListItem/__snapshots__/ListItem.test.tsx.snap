@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem> renders correctly 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+          "backgroundColor": "#FFFFFF",
+          "flexDirection": "row",
+          "paddingHorizontal": 10,
+          "paddingVertical": 4,
+        },
+      ]
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "lorem",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#D0D0D0",
+            "borderRadius": 10,
+            "height": 55,
+            "marginRight": 11,
+            "width": 55,
+          },
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "flexShrink": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+              "fontSize": 14,
+              "fontWeight": "800",
+              "lineHeight": 19,
+              "marginBottom": 7,
+              "marginTop": 5,
+            },
+          ]
+        }
+      >
+        lorem
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Avenir",
+              "fontSize": 12,
+              "fontWeight": "400",
+              "lineHeight": 16,
+            },
+          ]
+        }
+      >
+        ipsum
+      </Text>
+    </View>
+  </View>
+</View>
+`;
